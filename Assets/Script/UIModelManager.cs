@@ -7,7 +7,6 @@ public class UIModelManager : MonoBehaviour
 {
     // UI 面板管理
     public PanelSwitcher panelSwitcher; // 引用负责管理 UI 面板的脚本
-    public GameObject[] uiElements; // 用于存放 UI 元素（按钮、面板等）
 
     // 模型管理
     public GameObject[] modelPrefabs; // 3D 模型预制件
@@ -277,24 +276,5 @@ public class UIModelManager : MonoBehaviour
             currentModel.transform.localScale = Vector3.one * newScale;
         }
     }
-
-    // 隐藏所有 UI 元素
-    public void HideUI()
-    {
-        foreach (var uiElement in uiElements)
-        {
-            if (uiElement != null)
-                uiElement.SetActive(false);
-        }
-    }
-
-    // 显示所有 UI 元素
-    public void ShowUI()
-    {
-        foreach (var uiElement in uiElements)
-        {
-            if (uiElement != null)
-                uiElement.SetActive(true);
-        }
-    }
+    
 }

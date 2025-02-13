@@ -1504,12 +1504,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelSwitcher: {fileID: 919911137}
-  uiElements:
-  - {fileID: 919911132}
-  - {fileID: 2145756244}
-  - {fileID: 1776277596}
-  - {fileID: 1732094257}
-  - {fileID: 455045411}
   modelPrefabs:
   - {fileID: 3228430779074543468, guid: a70303ad00798d14d8ad853cc95cdd5f, type: 3}
   - {fileID: 5273896191729665378, guid: ffe68d26295345a43a3ab86bd921105a, type: 3}
